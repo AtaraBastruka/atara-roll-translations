@@ -1,0 +1,27 @@
+{
+  "source": "en",
+  "target": "es",
+  "architecture": "base-memory",
+  "upstream": "https://storage.googleapis.com/moz-fx-translations-data--303e-prod-translations-data/models/en-es/retrain_hr_fix_names_CUAEXUHoQum_cFqh-ZAryw/exported/",
+  "license": "MPL-2.0",
+  "compression": "gzip (as published upstream)",
+  "files": {
+    "model": {
+      "path": "model.enes.intgemm.alphas.bin.gz",
+      "sha256": "fe4025fde24a4d5f80533cfb7acd53d0eb7f194dfc2d8f427f0d4563cfb6ac06",
+      "bytes": 22698792,
+      "uncompressedSha256": "3b1c399511c01c84c36fae5c0524df44096288efdc8236e182b5c97d7ad2244c",
+      "uncompressedBytes": 31561787
+    },
+    "lexicalShortlist": {
+      "path": "lex.50.50.enes.s2t.bin.gz",
+      "sha256": "37a067966f28ff0ba430fddb7412bc5b07afa2cd2fd5a46d9ad74045a1a06380",
+      "bytes": 2265250
+    },
+    "vocab": {
+      "path": "vocab.enes.spm.gz",
+      "sha256": "ae2760c04bc6eb5362b16e5c2f145c376bb04bac421c33ba3c0766805e6f03b3",
+      "bytes": 409312
+    }
+  }
+}
